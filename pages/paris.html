@@ -1,32 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Travel Guide - Paris</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    }
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+
   <h1>Paris Travel Guide</h1>
   <h2>Top Attractions</h2>
 
   <section>
     <h3>The Eiffel Tower</h3>
-    <p>The Eiffel Tower is an iconic iron lattice tower built for the 1889 World's Fair. It's a must-visit attraction in Paris.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Eiffel_Tower_at_dusk.jpg/300px-Eiffel_Tower_at_dusk.jpg" alt="Eiffel Tower" width="300" />
-    <p><a href="https://www.google.com/maps/place/Eiffel+Tower/@48.8583,2.2945,15z/data=!4m5!3m4!1s0x47e66e2f1759e8df:0x2cfc5c7d9cdd6f4!8m2!3d48.8583!4d2.2923" target="_blank">View on Google Maps</a></p>
+    <p>The Eiffel Tower is an iconic symbol of Paris and one of the most visited monuments in the world.</p>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Eiffel_Tower_at_dusk.jpg" alt="Eiffel Tower at dusk">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" alt="Eiffel Tower close-up">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Tour_Eiffel_depuis_le_Trocad%C3%A9ro.jpg" alt="Eiffel Tower from Trocadero">
+    </div>
+    <a href="https://www.google.com/maps/place/Eiffel+Tower" target="_blank">View on Google Maps</a>
   </section>
 
   <section>
     <h3>The Louvre Museum</h3>
-    <p>The Louvre Museum is one of the world's largest and most visited museums, housing an impressive collection of art and artifacts from around the world.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Louvre-Pyramid.jpg/300px-Louvre-Pyramid.jpg" alt="Louvre Museum" width="300" />
-    <p><a href="https://www.google.com/maps/place/Louvre+Museum/@48.8622,2.2947,15z/data=!4m5!3m4!1s0x47e66e2f17c4f0df:0x2cfc5c7d9cdd6f4!8m2!3d48.8622!4d2.2925" target="_blank">View on Google Maps</a></p>
+    <p>The Louvre is the world’s largest art museum and a historic monument in Paris, home to thousands of works including the Mona Lisa.</p>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Louvre-Pyramid.jpg" alt="Louvre Pyramid">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Louvre_interior.jpg" alt="Louvre Interior">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Mona_Lisa_Louvre.jpg" alt="Mona Lisa at Louvre">
+    </div>
+    <a href="https://www.google.com/maps/place/Louvre+Museum" target="_blank">View on Google Maps</a>
   </section>
 
   <section>
     <h3>Notre-Dame Cathedral</h3>
-    <p>Notre-Dame Cathedral is a stunning Gothic cathedral that dates back to the 12th century. It's a beautiful and historic landmark in the heart of Paris.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Notre-Dame_Cathedral_2007.jpg/300px-Notre-Dame_Cathedral_2007.jpg" alt="Notre-Dame Cathedral" width="300" />
-    <p><a href="https://www.google.com/maps/place/Notre-Dame+Cathedral/@48.8534,2.2946,15z/data=!4m5!3m4!1s0x47e66e2f17c4f0df:0x2cfc5c7d9cdd6f4!8m2!3d48.8534!4d2.2923" target="_blank">View on Google Maps</a></p>
+    <p>Notre-Dame de Paris is a masterpiece of Gothic architecture located on the Île de la Cité in the heart of Paris.</p>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Notre-Dame_Cathedral_2007.jpg" alt="Notre-Dame Cathedral Front">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Cath%C3%A9drale_Notre-Dame_de_Paris_-_2019.jpg" alt="Notre-Dame Restoration">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Notre_Dame_de_Paris.jpg" alt="Notre-Dame from afar">
+    </div>
+    <a href="https://www.google.com/maps/place/Notre-Dame+Cathedral" target="_blank">View on Google Maps</a>
   </section>
+
 </body>
 </html>
